@@ -1,0 +1,29 @@
+{
+  "name": "auth0_cleanup",
+  "version": "1.0.0",
+  "description": "Lambda function to update dynamoDb and remove from Auth0",
+  "main": "index_backup1.js",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.873.0",
+    "bowser": "^2.12.1",
+    "fast-xml-parser": "^5.2.5",
+    "strnum": "^2.1.1",
+    "tslib": "^2.8.1",
+    "uuid": "^9.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annerraquino/auth0_cleanup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/annerraquino/auth0_cleanup/issues"
+  },
+  "homepage": "https://github.com/annerraquino/auth0_cleanup#readme"
+}
